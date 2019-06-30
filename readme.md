@@ -1,3 +1,17 @@
+# Cara install master-laravel (workshop) ke local anda :
+- git clone https://github.com/maryadimar/workshop-laravel.git
+- tunggu hingga proses download / cloning selesai
+- cd workshop-laravel (folder projeknya)
+- ketik command berikut "composer install" , tanpa tanda kutip
+- buat database di xampp, misalnya nama databasenya [workshoplaravel]
+- pastikan sudah ada file .env , jika tidak ada rename file .env.example ke .env
+- sesuaikan nama database pada file .env pada baris ke 12 
+**[DB_DATABASE=workshoplaravel]
+**[DB_USERNAME=root]
+- migrasi isi tabel database ke xampp, ketikan command berikut "php artisan migrate"
+- **silahkan dicoba** !! 
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
